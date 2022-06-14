@@ -1,0 +1,35 @@
+// SideBar style css //
+
+
+.container-side-bar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#020203;
+    width: 117px;
+    height:825px;
+    padding-top: 0;
+    padding-bottom: 0;
+    .ul-side-bar{
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        .li-side-bar{
+            background-color:#fff;
+            width: 64px;
+            height: 64px;
+            border-radius: 6px;
+            cursor: pointer;
+            line-height: 5.2em;
+        }
+    }
+    div{
+        .copiryght{
+            color: #fff;
+            font-size: 12px;
+            writing-mode: vertical-rl;
+
+        }
+    }
+}
